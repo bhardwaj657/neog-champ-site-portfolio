@@ -16,7 +16,10 @@ body{
     padding-left: .5rem;
     font-size: 1.5rem;
 }
-
+.active-link{
+    font-weight: bold;
+    color: tomato;
+}
 .nav{
     height: 7.5rem;
     text-align: right;
