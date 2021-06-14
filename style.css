@@ -18,6 +18,7 @@ body{
 }
 
 .nav{
+    height: 7.5rem;
     text-align: right;
     background-color:var(--primary-color);   
     border-bottom-left-radius: 30px;
@@ -32,17 +33,17 @@ body{
     
 }
 
-.list , li {
+.list , .nav-list {
     list-style: none;
     display: inline; 
 }
-.list , li,a {
+.list , .nav-list,a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
     padding: 6px;
 }
-.list , li,a:hover {
+.list , .nav-list,a:hover {
     color: tomato;
     font-size: 1.5rem;
 }
@@ -68,12 +69,12 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
-    display: block;
+    
 }
 .container{
-    max-width: 600px;
-    margin: auto;
-    display: block;
+    
+    /* display: block; */
+    padding-left: 3rem;
 }
 h3{
     font-size: 2.4rem;
@@ -123,4 +124,45 @@ strong{
 }
 .social-links{
     padding: 0px;
+}
+.project-li div li{
+    list-style: none;
+}
+.project-li div li h1{
+    margin: 0px;
+    color: darkorange;
+}
+small{
+    color: darkred;
+    font-size: 1rem;
+}
+.project-li .container{
+    padding-left: 0px;
+}
+.project-li div li a{
+    color: darkred;
+     border: 2px solid black;
+     border-radius: 1rem;
+    /* background-color: var(--primary-color); */
+} 
+/* button{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+} */
+button{
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    /* color: rgb(255, 255, 255); */
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+}
+.btn{
+    color: var(--primary-color);
+    background-color: white;
 }
